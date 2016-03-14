@@ -30,6 +30,7 @@ When adding new features, contributors should branch off of `develop`. Once chan
 1. Switch back from your feature branch to the development branch.
 
 `git checkout develop` 
+
 2. Make sure your version of the development branch is up-to-date.
 
 `git pull`
