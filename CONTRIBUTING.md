@@ -20,9 +20,10 @@ When adding new features, contributors should branch off of `develop`. Once chan
 
   * `git checkout -b FEATURENAME develop`
 
-4. Push your committed changes to your branch.
+4. Edit the feature branch.
 
-  * `git push origin FEATURENAME`
+  * `git add -A`
+  * `git commit -m "COMMIT MESSAGE"`
 
 
 ### Merging feature branch into development branch
@@ -66,3 +67,4 @@ When adding new features, contributors should branch off of `develop`. Once chan
 
 1. Avoid pushing to master unless you are moving the production branch forwards!
 2. Do not delete the development branch even after merging to production!
+3. No need to push feature branches to the repository.
