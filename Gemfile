@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 ruby '2.2.4'
 
+# OAuth gems
+gem 'omniauth-facebook'
+
+# Figaro for hiding API keys
+gem 'figaro'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
