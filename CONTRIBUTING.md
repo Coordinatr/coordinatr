@@ -63,8 +63,13 @@ When adding new features, contributors should branch off of `develop`. Once chan
 
   * `git push origin master`
 
-## Notes
+### Notes
 
 1. Avoid pushing to master unless you are moving the production branch forwards!
 2. Do not delete the development branch even after merging to production!
 3. No need to push feature branches to the repository.
+
+### Resources
+
+[A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/)
+[How To Collaborate on Github](http://code.tutsplus.com/tutorials/how-to-collaborate-on-github--net-34267)
