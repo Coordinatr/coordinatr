@@ -3,6 +3,7 @@ ruby '2.2.4'
 
 # OAuth gems
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 # Figaro for hiding API keys
 gem 'figaro'
